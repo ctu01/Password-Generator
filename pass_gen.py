@@ -11,6 +11,6 @@ length = int(length)
 password = ''
 for c in range(length):
     password += random.choice(chars)
-print("Your password is: {}. Write it down!".format(password))
+print("Your password is: {} . Write it down!".format(password))
 # Will replace {} with password
 
